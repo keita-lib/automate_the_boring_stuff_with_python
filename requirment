@@ -1,0 +1,47 @@
+追加モジュール	install	
+		
+kivy	-	タッチパネル対応GUI
+py2exe	-	pythonコードのexe化
+tensor flow	-	機械学習(NN)
+keras	-	tensor flowのコード簡略化
+		
+退屈python用		
+pyperclip		クリップボードへのアクセス
+pprint	○	printを整列させる
+re	○	正規表現
+os	○	pathなどの定義と移動
+sys	○	
+shutil	○	shell utilities . ファイル操作
+send2trash	-	ゴミ箱へ移動（復元は別のモジュールで）
+zipfile	○	zipファイルとして圧縮・解凍
+traceback	○	エラー時のトレースバック情報を記録する
+logging	○	デバッグ用。任意の場所で出力する。出力をやめるのも自在
+webbrowser	○	URLをブラウザで開く
+requests	○	webからファイルやwebページをダウンロードする
+Beautiful Soup	○	HTMLを文法的に解釈する。　インポートは bs4　で良い
+selenium	-	ブラウザを起動し制御する。フォーム記入、マウスクリック。
+openpyxl	○	xlsxファイルを自動操作
+PyPDF2	-	pdf　開く　テキスト抽出　回転　結合
+python-docx	-	"wordの処理
+インストールはpython-docx だが　インポートはdocx（しかも インストールでdocxとすると、別物が入ってくる。非常にややこしい。"
+csv	○	csvファイル作成　操作
+json	○	JSONとpythonデータを相互変換する
+time	○	処理時間の測定 sleep
+datetime	○	日付データなど
+threading	○	マルチスレッディング処理
+subprocess	-	pythonｋから他のプログラムを実行する Popen()関数
+smtp	○	メール送信
+imaplib	○	メール受信(参考）
+imapclient	-	メール受信
+pyzmail	-	"メールメッセージを解析
+install に失敗するときは　easy_install pyzmail を試すこと"
+twilio	-	"SMS送信
+インポートは from twilio.rest import Client　とすること"
+pillow	-	"画像処理
+インポートは PIL"
+pyautogui	-	マウス・キーボード自動操作
+		
+使用中のモジュール		
+numpy	○	
+sklearn	○	機械学習( k-means , d-tree , SVM )
+tkinter	○	GUI
